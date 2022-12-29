@@ -1,0 +1,53 @@
+header {
+	background: #BBB;
+	padding: 20px;
+}
+
+.header-box {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+h1 {
+
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 115px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #B8860B;
+	text-decoration: underline;
+}
+
+/*main*/
+
+
+footer {
+	background: url("bg.jpg");
+	text-align: center;
+	padding: 40px 0 20px;
+}
+
+.copyright {
+	color: #FFF;
+	font-size: 13px;
+	margin-top: 20px;
+}

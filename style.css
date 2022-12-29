@@ -1,0 +1,301 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(#FFFFFF 1000px,#333);
+	min-width: 940px !important;
+}
+
+header {
+	background: #BBB;
+	box-sizing: border-box;
+}
+
+.header-box {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 115px;
+	margin-right: 20px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #B8860B;
+	text-decoration: underline;
+}
+
+/*CSS da Home*/
+
+main {
+	width: 940px;
+	margin: 4em auto;
+}
+
+section {
+	margin: 4em 0;
+	clear: both;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.banner {
+	width: 100%;
+}
+
+.main-title {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.main-title:first-letter {
+	font-weight: bold;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.mission {
+	text-align: center;
+	margin: 1em 0;
+	color: rgba(0,0,0,.7);
+}
+
+.map p {
+	margin: 2em 0;
+	text-align: center;
+
+}
+
+.benefits {
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto; /*deixar margens assim para não sobrescrever css da tag section para cima e baixo*/
+}
+
+.benefits-img {
+	width: 50%;
+}
+
+.benefits ul {
+	display: inline-block;
+	width: 47%;
+	padding: 0 0 0 3%;
+	vertical-align: top;
+	line-height: 1.5em;
+	list-style-type: disc;
+}
+
+.benefits li {
+	font-weight: bold;
+}
+
+.benefits li~li {
+	font-weight: revert;
+}
+
+.video {
+	width: 560px;
+	height: 315px;
+	margin: 2em auto;
+	box-shadow: 10px 10px 30px #000;
+}
+
+.video	iframe {
+}
+
+/*CSS de Produtos*/
+
+main h1 {
+	font-size: 34px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.products {
+	width: 940px;
+	margin: 20px auto;
+}
+
+.products li {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 30%;
+	margin: 0 1.5%;
+	padding: 25px 15px;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	border-radius: 15px 80px;
+	transition: 0.5s;
+}
+
+.products li:hover {
+	border-color: #B8860B;
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.products li:active {
+	border-color: #228B22	;
+}
+
+.products h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.products-description {
+	font-size: 18px;
+	height: 36px;
+}
+
+.products-price {
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+/*CSS de Contato*/
+
+.base-label {
+	font-size: 20px;
+}
+
+.text-input {
+	display: block;
+	margin: 5px 0 20px;
+	padding: 5px 8px;
+	width: 50%;
+	font-size: 14px;
+}
+
+form fieldset {
+	margin: 20px 0 15px;
+}
+
+.questions {
+	display: block;
+	margin: 20px 0 15px;
+	font-size: 20px;
+}
+
+.radio-label {
+	display: block;
+	font-size: 17px;
+	padding-top: 5px;
+}
+
+.submit-button {
+	border: none;
+	border-radius: 5px;
+	width: 40%;
+	padding: 10px;
+	background: #141;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 17px;
+	transition: 0.5s all;
+}
+
+.submit-button:hover {
+	background: #161;
+	cursor: pointer;
+	transform: scale(1.2) rotate(-2deg);
+}
+
+table {
+	margin: 30px;
+	transition: 1s all;
+}
+
+table:hover{
+	transform: scale(1.4);
+}
+
+th {
+	background: #CCC;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000;
+	padding: 5px;
+	width: 90px;
+}
+
+tfoot td {
+	font-size: 12px;
+	font-style: italic;
+	text-align: right;
+	padding-right: 15px;
+}
+
+
+footer {
+	background: url("bg.jpg");
+	text-align: center;
+	padding: 40px 0 20px;
+}
+
+.copyright {
+	color: #FFF;
+	font-size: 13px;
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		min-width: 300px !important;
+	}
+	.header-box, main, .products, .benefits, .video, .benefits-img {
+		width: 100%;
+	}
+
+	.header-box {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	nav a {
+		font-size: 1em;
+	}
+
+	.video {
+		width: 90%;
+		height: 240px;
+	}
+	.benefits ul {
+		width: 94%;
+		padding-left: 6%;
+		margin: 1em 0;
+	}

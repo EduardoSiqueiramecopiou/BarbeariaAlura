@@ -1,0 +1,120 @@
+header {
+	background: #BBB;
+	padding: 20px;
+}
+
+.header-box {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 115px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #B8860B;
+	text-decoration: underline;
+}
+
+.introduction {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.introduction h1 {
+	font-size: 34px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+#banner {
+	width: 940px;
+}
+
+.about {
+	width: 940px;
+	margin: 20px auto;
+	background: #CCC;
+	text-align: center;
+	font-size: 16px;
+	padding: 0 34px 34px 34px;
+	box-sizing: border-box;
+}
+
+.about h2 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+#mission {
+	font-size: 20px;
+	padding: 100px;
+}
+
+em strong {
+	color: #DD0000;
+}
+
+.benefits {
+	width: 940px;
+	margin: 0 auto 30px;
+}
+
+.benefits h3 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.benefits ul {
+	display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    height: 312px;
+    margin: 0;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+
+.items {
+	font-style: italic;
+	list-style-type: none;
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+
+.benefitsImg {
+	width: 468px;
+}
+
+footer {
+	background: url("bg.jpg");
+	text-align: center;
+	padding: 40px 0 20px;
+}
+
+.copyright {
+	color: #FFF;
+	font-size: 13px;
+	margin-top: 20px;
+}
